@@ -1,0 +1,43 @@
+# Taps
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/bundle'
+
+# Binaries
+brew 'awscli'
+brew 'bash' # Latest Bash version
+brew 'coreutils' # Those that come with macOS are outdated
+brew 'direnv'
+brew 'gh'
+brew 'git'
+brew 'grep'
+brew 'hub'
+brew 'mackup'
+brew 'mas' 
+brew 'pkg-config'
+brew 'pre-commit'
+brew 'terraform'
+brew 'trash'
+brew 'tree'
+brew 'thefuck'
+brew 'zsh-autosuggestions'
+
+# Apps
+cask 'aws-vault'
+cask 'alfred'
+cask '1password'
+cask '1password-cli'
+cask 'discord'
+cask 'docker-edge'
+cask 'github'
+cask 'phpstorm'
+cask 'intellij-idea-ce'
+cask 'slack'
+cask 'spotify'
+cask 'the-unarchiver'
+cask 'visual-studio-code'
+cask 'whatsapp'
+cask 'spectacle'
+cask 'iterm2'
+cask 'goland'
