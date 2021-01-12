@@ -6,3 +6,4 @@
 1. Download this repository to `~/dotfiles`
 1. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started)
 1. Run `bash install.sh`
+1. Run `git config --global core.excludesfile ~/.dotfiles/.gitignore_global`
