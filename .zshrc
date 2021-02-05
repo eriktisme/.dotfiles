@@ -85,6 +85,8 @@ source $ZSH/oh-my-zsh.sh
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+source $(brew --prefix nvm)/nvm.sh
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
