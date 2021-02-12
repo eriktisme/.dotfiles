@@ -62,3 +62,8 @@ alias dcc="docker-compose config"
 alias dce="docker-compose exec"
 alias dcr="docker-compose run"
 alias dcl="docker-compose logs"
+
+# Projects
+alias c="~/dev/code/crypto"
+alias e="~/dev/code/eriktisme"
+alias s="~/dev/code/scaling.cloud"
