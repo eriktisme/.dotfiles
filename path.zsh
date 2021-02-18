@@ -1,3 +1,7 @@
+# Homebrew
+BREW_PREFIX=$(brew --prefix)
+export PATH=${BREW_PREFIX}/bin:${BREW_PREFIX}/sbin:${PATH}
+
 # Load Composer tools
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
