@@ -5,6 +5,7 @@ alias opmy='eval $(op signin my)'
 
 # Applications
 alias intellij="open -a IntelliJ\ IDEA\ CE"
+alias webstorm="open -a WebStorm"
 alias phpstorm="open -a PhpStorm"
 alias goland="open -a GoLand"
 
@@ -13,6 +14,7 @@ alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 
 # Git
+unalias gsts
 alias gs="git status"
 alias gb="git branch"
 alias gc="git checkout"
@@ -65,6 +67,6 @@ alias dcr="docker-compose run"
 alias dcl="docker-compose logs"
 
 # Projects
-alias c="~/dev/code/crypto"
+alias c="~/dev/code/choco"
 alias e="~/dev/code/eriktisme"
-alias s="~/dev/code/scaling.cloud"
+alias s="~/dev/code/scaling"

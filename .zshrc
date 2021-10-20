@@ -15,6 +15,8 @@ export MNML_INSERT_CHAR="$"
 export MNML_PROMPT=(mnml_git mnml_keymap)
 export MNML_RPROMPT=('mnml_cwd 20')
 
+DEFAULT_USER=$(whoami)
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -79,11 +81,12 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+    git
+    zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
-
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source $(brew --prefix nvm)/nvm.sh
 
@@ -118,3 +121,5 @@ eval "$(direnv hook zsh)"
 eval "$(thefuck --alias)"
 
 eval $(thefuck --alias)
+
+prompt_context () { }
