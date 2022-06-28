@@ -4,14 +4,23 @@ alias reloadshell="source $HOME/.zshrc"
 alias opmy='eval $(op signin my)'
 
 # Applications
-alias intellij="open -a IntelliJ\ IDEA\ CE"
+#alias intellij="open -a IntelliJ\ IDEA\ CE"
 alias webstorm="open -a WebStorm"
-alias phpstorm="open -a PhpStorm"
-alias goland="open -a GoLand"
+alias pycharm="open -a PyCharm\ CE"
+alias astudio="open -a Android\ Studio"
+#alias phpstorm="open -a PhpStorm"
+#alias goland="open -a GoLand"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
+alias apps="cd $HOME/Applications"
+
+# Python
+alias python="python3"
+alias pip="pip3"
+
+alias ibrew="arch -x86_64 /usr/local/bin/brew"
 
 # Git
 unalias gsts
@@ -70,3 +79,11 @@ alias dcl="docker-compose logs"
 alias c="~/dev/code/choco"
 alias e="~/dev/code/eriktisme"
 alias s="~/dev/code/scaling"
+
+# GSTS Scaling
+alias prodp="gsts --sp-id \"416907192109\" --idp-id \"C03m3jpc6\" --username \"erik@scaling.cloud\" --aws-role-arn \"arn:aws:iam::284594424585:role/SSOAdministratorRole\" --aws-profile \"prod-pipelines\""
+alias sandboxp="gsts --sp-id \"416907192109\" --idp-id \"C03m3jpc6\" --username \"erik@scaling.cloud\" --aws-role-arn \"arn:aws:iam::770366951738:role/SSOAdministratorRole\" --aws-profile \"sandbox-pipelines\""
+alias dev="gsts --sp-id \"416907192109\" --idp-id \"C03m3jpc6\" --username \"erik@scaling.cloud\" --aws-role-arn \"arn:aws:iam::668894150137:role/SSOAdministratorRole\" --aws-profile \"scaling-dev\""
+alias data="gsts --sp-id \"416907192109\" --idp-id \"C03m3jpc6\" --username \"erik@scaling.cloud\" --aws-role-arn \"arn:aws:iam::118760451739:role/SSOAdministratorRole\" --aws-profile \"scaling-data\""
+alias prod="gsts --sp-id \"416907192109\" --idp-id \"C03m3jpc6\" --username \"erik@scaling.cloud\" --aws-role-arn \"arn:aws:iam::215554501306:role/SSOAdministratorRole\" --aws-profile \"scaling-prod\""
+alias staging="gsts --sp-id \"416907192109\" --idp-id \"C03m3jpc6\" --username \"erik@scaling.cloud\" --aws-role-arn \"arn:aws:iam::403467615478:role/SSOAdministratorRole\" --aws-profile \"scaling-staging\""

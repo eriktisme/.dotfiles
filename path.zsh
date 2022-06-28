@@ -9,6 +9,11 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/.node/bin:$PATH"
 
+# Load Python Path
+export PATH=/usr/local/opt/python3/libexec/bin:$PATH
+export PATH=/usr/local/opt/python@3.7/bin:$PATH
+export PATH="$PATH:$HOME/.local/bin"
+
 # Load Go
 # export GOPATH="$HOME/go"
 # export PATH="$HOME:$(go env GOPATH)/bin:$PATH"
@@ -16,3 +21,5 @@ export PATH="$HOME/.node/bin:$PATH"
 # Use project specific binaries before global ones
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 
+# Load Java
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"

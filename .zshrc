@@ -120,6 +120,4 @@ export LANG=en_US.UTF-8
 eval "$(direnv hook zsh)"
 eval "$(thefuck --alias)"
 
-eval $(thefuck --alias)
-
 prompt_context () { }
