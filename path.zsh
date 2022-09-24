@@ -23,3 +23,8 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 
 # Load Java
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+
+# Load pnpm
+export PNPM_HOME="/$HOME/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
