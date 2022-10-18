@@ -43,13 +43,14 @@ alias unstage="git restore --staged ."
 alias wip="commit wip"
 
 # Projects
-alias c="~/dev/code/choco"
 alias e="~/dev/code/eriktisme"
 alias s="~/dev/code/scaling"
+alias a="~/dev/code/statespace"
 
-# GSTS Scaling
+# Scaling
 alias prodp="leapp session start --sessionId 4dfafb8c-0523-4f0c-b29d-103ddfa03a36"
-alias sandboxp="leapp session start --sessionId 5a2c60ec-1206-4a01-aa93-0092252f1383"
 alias dev="leapp session start --sessionId 050d595c-a4b8-4b75-b0d8-ed084a6a9a0c"
 alias prod="leapp session start --sessionId a928754b-7da4-474a-9095-2f77643af2ba"
 alias staging="leapp session start --sessionId a4701761-21f1-4d14-96a7-a017d32442cc"
+alias data="leapp session start --sessionId 042153de-bbca-49c4-8d14-71c0377c89ed"
+alias datastaging="leapp session start --sessionId 5a2c60ec-1206-4a01-aa93-0092252f1383"
