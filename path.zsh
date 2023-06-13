@@ -8,6 +8,7 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 # Load Node global installed binaries
 export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/.node/bin:$PATH"
+export PATH="$PATH:$(yarn global bin)"
 
 # Load Python Path
 export PATH=/usr/local/opt/python3/libexec/bin:$PATH

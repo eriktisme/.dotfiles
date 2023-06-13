@@ -8,7 +8,7 @@ alias opmy='eval $(op signin my)'
 alias webstorm="open -a WebStorm"
 alias pycharm="open -a PyCharm\ CE"
 alias astudio="open -a Android\ Studio"
-#alias phpstorm="open -a PhpStorm"
+alias phpstorm="open -a PhpStorm"
 #alias goland="open -a GoLand"
 
 # Directories
@@ -44,8 +44,9 @@ alias wip="commit wip"
 
 # Projects
 alias e="~/dev/code/eriktisme"
+alias er="~/dev/code/erudit"
 alias s="~/dev/code/scaling"
-alias a="~/dev/code/statespace"
+alias r="~/dev/code/relative"
 
 # Scaling
 alias prodp="leapp session start --sessionId 4dfafb8c-0523-4f0c-b29d-103ddfa03a36"
@@ -54,3 +55,8 @@ alias prod="leapp session start --sessionId a928754b-7da4-474a-9095-2f77643af2ba
 alias staging="leapp session start --sessionId a4701761-21f1-4d14-96a7-a017d32442cc"
 alias data="leapp session start --sessionId 042153de-bbca-49c4-8d14-71c0377c89ed"
 alias datastaging="leapp session start --sessionId 5a2c60ec-1206-4a01-aa93-0092252f1383"
+
+# Relative
+alias rroot="leapp session start --sessionId 4f376e84-eab2-4988-8e57-2b8c09eb4bad"
+alias rprod="leapp session start --sessionId a51de2d3-c917-4d83-aed2-b4aedbda836a"
+alias rsandbox="leapp session start --sessionId 4d977950-0e96-429e-b1a6-a7cd5b9a6097"
